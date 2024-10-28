@@ -13,5 +13,5 @@ This setup includes the following components:
 - **NAT Gateway**: Enables private resources to access the internet.
 
 ## Cloud Initialization
-Each server is automatically configured using cloud-init scripts upon deployment. The configurations include:
+Each server is automatically configured using cloud-init scripts upon deployment. 
 

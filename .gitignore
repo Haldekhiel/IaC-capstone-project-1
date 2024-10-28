@@ -1,0 +1,4 @@
+varibles.tf
+terraform.tfstate.backup
+.terraform
+keypair.pem

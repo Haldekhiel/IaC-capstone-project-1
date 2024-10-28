@@ -1,5 +1,4 @@
 # IaC-capstone-project-1
-# Infrastructure Repository
 
 This project leverages Terraform to provision a robust infrastructure on Alibaba Cloud for hosting a Flask application.
 

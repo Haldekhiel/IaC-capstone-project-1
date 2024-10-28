@@ -12,14 +12,3 @@ resource "alicloud_security_group_rule" "http_sg_allow_ssh" {
   security_group_id        = alicloud_security_group.http_sg.id
   source_security_group_id = alicloud_security_group.bastion_sg.id
 }
-
-resource "alicloud_security_group_rule" "http_sg_allow_flask" {
-  type              = "ingress"
-  ip_protocol       = "tcp"
-  policy            = "accept"
-  port_range        = "5000/5000"
-  priority          = 1
-  security_group_id = alicloud_security_group.http_sg.id
-  cidr_ip           = "0.0.0.0/0"
-}
-

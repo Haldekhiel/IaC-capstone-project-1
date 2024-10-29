@@ -1,5 +1,6 @@
-varibles.tf
+variables.tf
 terraform.tfstate.backup
 .terraform
 keypair.pem
 terraform.tfstate
+keypair.pem.pub

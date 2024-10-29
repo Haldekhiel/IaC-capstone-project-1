@@ -1,6 +1,6 @@
 # IaC-capstone-project-1
 
-This project leverages Terraform to provision a robust infrastructure on Alibaba Cloud for hosting a Flask application.
+This project leverages Terraform to provision a robust infrastructure on Alibaba Cloud and AWS for hosting a Flask application.
 
 ## Infrastructure Overview
 This setup includes the following components:
@@ -14,3 +14,8 @@ This setup includes the following components:
 ## Cloud Initialization
 Each server is automatically configured using cloud-init scripts upon deployment. 
 
+## Application URL 
+Access the application hosted on AWS through the following link :
+http://nlb-ef569a4964ed297e.elb.us-east-1.amazonaws.com
+
+This infrastructure was provisioned using the AWS Terraform configurations included in this repository.
